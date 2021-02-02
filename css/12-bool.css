@@ -6,6 +6,13 @@
 [class*="col-"]{
   float: left;
 }
+/* clearfix */
+.container::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+/* /clearfix */
 /* colums */
 .col-1{
   width: calc( (100% / 12) * 1 )

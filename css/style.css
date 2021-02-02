@@ -28,10 +28,3 @@
   background-color: #f07f80;
 }
 /* /debug */
-/* clearfix */
-.container::after{
-  content: "";
-  display: block;
-  clear: both;
-}
-/* /clearfix */
