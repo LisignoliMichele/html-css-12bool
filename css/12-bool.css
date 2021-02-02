@@ -1,4 +1,11 @@
 /* framework */
+/* RESET */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* /RESET */
 .container{
   max-width: 1170px;
   margin: 0 auto;
@@ -89,3 +96,4 @@
 }
 /* /colums */
 /* /offset */
+/* /framework */
